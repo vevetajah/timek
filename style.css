@@ -1,0 +1,36 @@
+.color-input {
+            width: 60px;
+        }
+        .number-input {
+            width: 80px;
+        }
+        .weather-tab {
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .weather-tab.active {
+            background-color: #3b82f6;
+            color: white;
+        }
+        .time-section {
+            display: none;
+        }
+        .time-section.active {
+            display: block;
+        }
+        .draggable-weather {
+            cursor: move;
+        }
+        .draggable-time {
+            cursor: move;
+        }
+        input:invalid {
+            border-color: #f87171;
+            background-color: #fee2e2;
+        }
+        .input-error {
+            color: #ef4444;
+            font-size: 0.75rem;
+            margin-top: 0.25rem;
+            display: none;
+        }
